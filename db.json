@@ -1,11 +1,24 @@
 {
-  "posts": [
+  "restaurants": [
     {
-      "id": 1,
-      "title": "hi"
+      "avgRating":0,
+      "category":"Pizza",
+      "city":"Oakland",
+      "name""Spot Fire",
+      "numRatings":0,
+      "photo":"https://storage.googleapis.com/firestorequickstarts.appspot.com/food_19.png",
+      "price":2
     }
   ],
-  "profile": {
-    "name": "typicode"
+  "widgets": [
+    {
+    "name": "restaurant_tile"
+    "template":"tile",
+    "data model":"restaurants",
+    "data info":{
+      
+    }
   }
+  ]
+  
 }
